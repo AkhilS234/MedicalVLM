@@ -137,8 +137,6 @@ For GPU-accelerated training, use Google Colab with a T4 GPU. Mount your Google 
 !python -m src.train
 ```
 
-Training time: ~2-3 minutes on T4 GPU vs ~30 minutes on CPU.
-
 ---
 
 ## Requirements
@@ -155,15 +153,3 @@ Training time: ~2-3 minutes on T4 GPU vs ~30 minutes on CPU.
 
 ---
 
-## Acknowledgements
-
-- Montgomery County CXR dataset: Jaeger et al., 2014
-- Shenzhen Hospital CXR dataset: Jaeger et al., 2014
-- CLIP framework: Radford et al., 2021 — Learning Transferable Visual Models From Natural Language Supervision
-- DistilBERT: Sanh et al., 2019
-
----
-
-## License
-
-This project is intended for research and educational purposes only. The datasets are subject to their respective licensing terms from the NIH and Kaggle sources listed above.
