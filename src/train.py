@@ -13,7 +13,7 @@ model = MedicalCLIPModel()
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = model.to(device)
 optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
-num_epochs = 10
+num_epochs = 15
 
 scheduler = torch.optim.lr_scheduler.OneCycleLR(
     optimizer, 
